@@ -37,7 +37,7 @@ A fully functional Pomodoro-style productivity timer built using React. It allow
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/25-5-clock.git
+git clone https://github.com/2022-Yoseph/25-5-Clock-project.git
 cd 25-5-clock
 ````
 
