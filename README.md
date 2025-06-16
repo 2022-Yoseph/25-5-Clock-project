@@ -1,4 +1,4 @@
-## ✅ Project 1: `25 + 5 Clock`
+## ✅ Project : `25 + 5 Clock`
 
 Here is your professional `README.md` file for the **25 + 5 Clock**:
 
