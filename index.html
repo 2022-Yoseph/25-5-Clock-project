@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>25 + 5 Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>25 + 5 Clock</h1>
+
+    <div class="length-controls">
+      <div class="break-control">
+        <div id="break-label">Break Length</div>
+        <div class="adjust-buttons">
+          <button id="break-decrement" title="Decrease Break Length">−</button>
+          <div id="break-length">5</div>
+          <button id="break-increment" title="Increase Break Length">+</button>
+        </div>
+      </div>
+
+      <div class="session-control">
+        <div id="session-label">Session Length</div>
+        <div class="adjust-buttons">
+          <button id="session-decrement" title="Decrease Session Length">−</button>
+          <div id="session-length">25</div>
+          <button id="session-increment" title="Increase Session Length">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="timer">
+      <div id="timer-label">Session</div>
+      <div id="time-left">25:00</div>
+    </div>
+
+    <div class="controls">
+      <button id="start_stop" title="Start or Pause Timer">Start / Pause</button>
+      <button id="reset" title="Reset Timer">Reset</button>
+    </div>
+
+    <audio id="beep" preload="auto" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
